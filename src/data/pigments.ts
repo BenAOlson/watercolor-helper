@@ -1,6 +1,9 @@
-export default [
+import { Pigmant } from '../features/PigmantGrid/types'
+
+const pigmants: Pigmant[] = [
   {
     code: 'PBk7',
+    hex: '#34408b',
     group: 'Bk',
     number: 7,
     variation: null,
@@ -11,6 +14,7 @@ export default [
   },
   {
     code: 'PBk9',
+    hex: '',
     group: 'Bk',
     number: 9,
     variation: null,
@@ -21,6 +25,7 @@ export default [
   },
   {
     code: 'PBk11',
+    hex: '',
     group: 'Bk',
     number: 11,
     variation: null,
@@ -31,6 +36,7 @@ export default [
   },
   {
     code: 'PB15:1',
+    hex: '',
     group: 'B',
     number: 15,
     variation: 1,
@@ -41,6 +47,7 @@ export default [
   },
   {
     code: 'PB15:3',
+    hex: '',
     group: 'B',
     number: 15,
     variation: 3,
@@ -51,6 +58,7 @@ export default [
   },
   {
     code: 'PB15:6',
+    hex: '',
     group: 'B',
     number: 15,
     variation: 6,
@@ -61,6 +69,7 @@ export default [
   },
   {
     code: 'PB27',
+    hex: '',
     group: 'B',
     number: 27,
     variation: null,
@@ -71,6 +80,7 @@ export default [
   },
   {
     code: 'PB28',
+    hex: '',
     group: 'B',
     number: 28,
     variation: null,
@@ -81,6 +91,7 @@ export default [
   },
   {
     code: 'PB29',
+    hex: '',
     number: 29,
     variation: null,
     group: 'B',
@@ -91,6 +102,7 @@ export default [
   },
   {
     code: 'PB36',
+    hex: '',
     number: 36,
     variation: null,
     group: 'B',
@@ -101,6 +113,7 @@ export default [
   },
   {
     code: 'PB60',
+    hex: '',
     number: 60,
     variation: null,
     group: 'B',
@@ -111,6 +124,7 @@ export default [
   },
   {
     code: 'PB72',
+    hex: '',
     number: 72,
     variation: null,
     group: 'B',
@@ -121,6 +135,7 @@ export default [
   },
   {
     code: 'PBr7',
+    hex: '',
     number: 7,
     variation: null,
     group: 'Br',
@@ -150,6 +165,7 @@ export default [
   },
   {
     code: 'PBr23',
+    hex: '',
     number: 23,
     variation: null,
     group: 'Br',
@@ -160,6 +176,7 @@ export default [
   },
   {
     code: 'PBr24',
+    hex: '',
     number: 24,
     variation: null,
     group: 'Br',
@@ -170,6 +187,7 @@ export default [
   },
   {
     code: 'PG7',
+    hex: '',
     number: 7,
     variation: null,
     group: 'G',
@@ -180,6 +198,7 @@ export default [
   },
   {
     code: 'PG17',
+    hex: '',
     number: 17,
     variation: null,
     group: 'G',
@@ -190,6 +209,7 @@ export default [
   },
   {
     code: 'PG18',
+    hex: '',
     number: 18,
     variation: null,
     group: 'G',
@@ -200,6 +220,7 @@ export default [
   },
   {
     code: 'PG36',
+    hex: '',
     number: 36,
     variation: null,
     group: 'G',
@@ -210,6 +231,7 @@ export default [
   },
   {
     code: 'PG50',
+    hex: '',
     number: 50,
     variation: null,
     group: 'G',
@@ -224,6 +246,7 @@ export default [
   },
   {
     code: 'PO20',
+    hex: '',
     number: 20,
     variation: null,
     group: 'O',
@@ -234,6 +257,7 @@ export default [
   },
   {
     code: 'PO43',
+    hex: '',
     number: 43,
     variation: null,
     group: 'O',
@@ -244,6 +268,7 @@ export default [
   },
   {
     code: 'PO73',
+    hex: '',
     number: 73,
     variation: null,
     group: 'O',
@@ -254,6 +279,9 @@ export default [
   },
   {
     code: 'PR81:1',
+    number: 81,
+    variation: 1,
+    hex: '',
     group: 'R',
     commonName: 'Rhodamine 6G',
     otherCommonNames: ['Brilliant Purple', 'Tyrian Pink'],
@@ -262,6 +290,7 @@ export default [
   },
   {
     code: 'PR83',
+    hex: '',
     number: 83,
     variation: null,
     group: 'R',
@@ -272,6 +301,7 @@ export default [
   },
   {
     code: 'PR101',
+    hex: '',
     number: 101,
     variation: null,
     group: 'R',
@@ -290,6 +320,7 @@ export default [
   },
   {
     code: 'PR108',
+    hex: '',
     number: 108,
     variation: null,
     group: 'R',
@@ -309,6 +340,7 @@ export default [
   },
   {
     code: 'PR122',
+    hex: '',
     number: 122,
     variation: null,
     group: 'R',
@@ -319,6 +351,7 @@ export default [
   },
   {
     code: 'PR146',
+    hex: '',
     number: 146,
     variation: null,
     group: 'R',
@@ -335,6 +368,7 @@ export default [
   },
   {
     code: 'PR150',
+    hex: '',
     number: 150,
     variation: null,
     group: 'R',
@@ -345,6 +379,7 @@ export default [
   },
   {
     code: 'PR179',
+    hex: '',
     number: 179,
     variation: null,
     group: 'R',
@@ -355,6 +390,7 @@ export default [
   },
   {
     code: 'PR188',
+    hex: '',
     number: 188,
     variation: null,
     group: 'R',
@@ -365,6 +401,7 @@ export default [
   },
   {
     code: 'PR206',
+    hex: '',
     number: 206,
     variation: null,
     group: 'R',
@@ -375,6 +412,7 @@ export default [
   },
   {
     code: 'PR209',
+    hex: '',
     number: 209,
     variation: null,
     group: 'R',
@@ -385,6 +423,7 @@ export default [
   },
   {
     code: 'PR242',
+    hex: '',
     number: 242,
     variation: null,
     group: 'R',
@@ -395,6 +434,7 @@ export default [
   },
   {
     code: 'PR254',
+    hex: '',
     number: 254,
     variation: null,
     group: 'R',
@@ -405,6 +445,7 @@ export default [
   },
   {
     code: 'PR255',
+    hex: '',
     number: 255,
     variation: null,
     group: 'R',
@@ -415,6 +456,7 @@ export default [
   },
   {
     code: 'PV15',
+    hex: '',
     number: 15,
     variation: null,
     group: 'V',
@@ -425,6 +467,7 @@ export default [
   },
   {
     code: 'PV16',
+    hex: '',
     number: 16,
     variation: null,
     group: 'V',
@@ -435,6 +478,7 @@ export default [
   },
   {
     code: 'PV19',
+    hex: '',
     number: 19,
     variation: null,
     group: 'V',
@@ -455,6 +499,7 @@ export default [
   },
   {
     code: 'PV23',
+    hex: '',
     number: 23,
     variation: null,
     group: 'V',
@@ -465,6 +510,7 @@ export default [
   },
   {
     code: 'PW4',
+    hex: '',
     number: 4,
     variation: null,
     group: 'W',
@@ -475,6 +521,7 @@ export default [
   },
   {
     code: 'PW6',
+    hex: '',
     number: 6,
     variation: null,
     group: 'W',
@@ -485,6 +532,7 @@ export default [
   },
   {
     code: 'PY3',
+    hex: '',
     number: 3,
     variation: null,
     group: 'Y',
@@ -495,6 +543,7 @@ export default [
   },
   {
     code: 'PY35',
+    hex: '',
     number: 35,
     variation: null,
     group: 'Y',
@@ -515,6 +564,7 @@ export default [
   },
   {
     code: 'PY40',
+    hex: '',
     number: 40,
     variation: null,
     group: 'Y',
@@ -525,6 +575,7 @@ export default [
   },
   {
     code: 'PY42',
+    hex: '',
     number: 42,
     variation: null,
     group: 'Y',
@@ -535,6 +586,7 @@ export default [
   },
   {
     code: 'PY43',
+    hex: '',
     number: 43,
     variation: null,
     group: 'Y',
@@ -552,6 +604,7 @@ export default [
   },
   {
     code: 'PY53',
+    hex: '',
     number: 53,
     variation: null,
     group: 'Y',
@@ -562,6 +615,7 @@ export default [
   },
   {
     code: 'PY74',
+    hex: '',
     number: 74,
     variation: null,
     group: 'Y',
@@ -572,6 +626,7 @@ export default [
   },
   {
     code: 'PY83',
+    hex: '',
     number: 83,
     variation: null,
     group: 'Y',
@@ -582,6 +637,7 @@ export default [
   },
   {
     code: 'PY93',
+    hex: '',
     number: 93,
     variation: null,
     group: 'Y',
@@ -592,6 +648,7 @@ export default [
   },
   {
     code: 'PY119',
+    hex: '',
     number: 119,
     variation: null,
     group: 'Y',
@@ -602,6 +659,7 @@ export default [
   },
   {
     code: 'PY129',
+    hex: '',
     number: 129,
     variation: null,
     group: 'Y',
@@ -612,6 +670,7 @@ export default [
   },
   {
     code: 'PY150',
+    hex: '',
     number: 150,
     variation: null,
     group: 'Y',
@@ -622,6 +681,7 @@ export default [
   },
   {
     code: 'PY153',
+    hex: '',
     number: 153,
     variation: null,
     group: 'Y',
@@ -651,3 +711,5 @@ export default [
     brandNames: [],
   },
 */
+
+export default pigmants
